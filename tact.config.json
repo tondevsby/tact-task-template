@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "simple_counter",
+      "path": "./src/contracts/simple_counter.tact",
+      "output": "./build",
+      "mode": "full",
+      "options": {
+        "external": false,
+        "debug": false,
+        "ipfsAbiGetter": false,
+        "interfacesGetter": false,
+        "experimental": {
+          "inline": false
+        }
+      }
+    }
+  ]
+}
