@@ -2,7 +2,7 @@
   "scripts": {
     "pack": "node ./scripts/pack.cjs",
     "build": "node ./scripts/build.cjs",
-    "test": "jest ./src",
+    "test": "jest --roots src --testPathIgnorePatterns=pack/src",
     "test:pack": "jest ./pack/**/**.spec.js"
   },
   "dependencies": {
